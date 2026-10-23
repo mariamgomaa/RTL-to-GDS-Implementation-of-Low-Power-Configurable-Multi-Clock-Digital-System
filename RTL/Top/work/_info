@@ -1,0 +1,767 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1790637821
+V[PHCmL@<Y=B3eR`>lML^i1
+04 10 4 work SYS_TOP_tb fast 0
+=1-c403a831c9be-6abaf6fc-2d8-4314
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+Z6 !s110 1790785670
+ViOOKzWV7T]C6hWYidz3O22
+04 10 4 work SYS_TOP_TB fast 0
+=1-c403a831c9be-6abd3886-21a-5fcc
+R2
+R3
+R4
+n@_opt1
+R5
+vALU
+Z7 !s110 1790785664
+!i10b 1
+!s100 YA8:6L=SPD^_CFJL6S5`:3
+IYX7;XlDoS`1hcnXP0nzSK0
+Z8 dC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/Top
+w1790637804
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ALU/ALU.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ALU/ALU.v
+!i122 402
+L0 1 171
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1790785664.000000
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ALU/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ALU/ALU.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@u
+vASYNC_FIFO
+R7
+!i10b 1
+!s100 nk8X7IA0DJZgojnBd]VkU1
+I^]:nPa^8ziJ>Kz4IJS:CM0
+R8
+w1790628887
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/ASYNC_FIFO.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/ASYNC_FIFO.v
+!i122 397
+L0 1 99
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/ASYNC_FIFO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/ASYNC_FIFO.v|
+!i113 0
+R12
+R4
+n@a@s@y@n@c_@f@i@f@o
+vCLKDiv
+R7
+!i10b 1
+!s100 4KY?Pk8LaV@0akFQLHnI>3
+I?PgH4k;j8N3RCPiTPz=861
+R8
+w1787246887
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_DIVIDER/CLKDiv.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_DIVIDER/CLKDiv.v
+!i122 396
+Z13 L0 1 78
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_DIVIDER/CLKDiv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_DIVIDER/CLKDiv.v|
+!i113 0
+R12
+R4
+n@c@l@k@div
+vCLKDIV_MUX
+R6
+!i10b 1
+!s100 QO3EKhNCc13@Z?Qi<N7EN2
+IW3W^]JhD@i<zTYkP`?a341
+R8
+w1790631761
+8CLKDIV_MUX.v
+FCLKDIV_MUX.v
+!i122 404
+L0 2 25
+R9
+R10
+r1
+!s85 0
+31
+Z14 !s108 1790785670.000000
+Z15 !s107 SYS_TOP_TB.v|SYS_TOP.v|CLKDIV_MUX.v|
+Z16 !s90 -reportprogress|300|CLKDIV_MUX.v|SYS_TOP.v|SYS_TOP_TB.v|
+!i113 0
+Z17 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@c@l@k@d@i@v_@m@u@x
+vCLOCK_GATE
+R7
+!i10b 1
+!s100 NS6EKEcGSHbbKYR5mD0BY2
+Ii@<2z20b^N0jV^RXhdRZQ0
+R8
+w1790637421
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_GATE/CLOCK_GATE.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_GATE/CLOCK_GATE.v
+!i122 395
+L0 1 28
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_GATE/CLOCK_GATE.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/CLOCK_GATE/CLOCK_GATE.v|
+!i113 0
+R12
+R4
+n@c@l@o@c@k_@g@a@t@e
+vdata_sampling
+Z18 !s110 1790785663
+!i10b 1
+!s100 InUV2ZiN>5[Lj?m5o4j1P3
+Ied<@]LL<fMBhN0lC[7:=?3
+R8
+w1790552179
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/data_sampling.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/data_sampling.v
+!i122 376
+L0 1 83
+R9
+R10
+r1
+!s85 0
+31
+Z19 !s108 1790785663.000000
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/data_sampling.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/data_sampling.v|
+!i113 0
+R12
+R4
+vDATA_SYNC
+R7
+!i10b 1
+!s100 C;PN0XzQZ>PeYVeVBMQbX2
+I2<c^nEWLmCa4R`DM;d<H@1
+R8
+w1787245256
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/DATA_SYNCH/Data_Sync.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/DATA_SYNCH/Data_Sync.v
+!i122 394
+L0 1 74
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/DATA_SYNCH/Data_Sync.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/DATA_SYNCH/Data_Sync.v|
+!i113 0
+R12
+R4
+n@d@a@t@a_@s@y@n@c
+vdeserializer
+R18
+!i10b 1
+!s100 Y8fh]ahbW4RIE>=7^_7ll3
+IPT9RiYzS]<<T<?9F:fY[T1
+R8
+w1786541220
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/deserializer.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/deserializer.v
+!i122 377
+L0 1 40
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/deserializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/deserializer.v|
+!i113 0
+R12
+R4
+vDF_SYNC
+R7
+!i10b 1
+!s100 h@jKBjfo]OP]>CZP7LI0i3
+IHHeFbk[Jo6U6>MSPRT:@;2
+R8
+w1787860217
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/DF_SYNC.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/DF_SYNC.v
+!i122 398
+Z20 L0 1 24
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/DF_SYNC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/DF_SYNC.v|
+!i113 0
+R12
+R4
+n@d@f_@s@y@n@c
+vedge_bit_counter
+R18
+!i10b 1
+!s100 3YHR:]LEj1dDDoE=?<^UM3
+I<mlS6U6XR3d>]idV@o]<U2
+R8
+w1790785648
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/edge_bit_counter.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/edge_bit_counter.v
+!i122 378
+R13
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/edge_bit_counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/edge_bit_counter.v|
+!i113 0
+R12
+R4
+vFIFO_MEM_CNTRL
+R7
+!i10b 1
+!s100 CI^0Fjm4INHd;QlQ]e24F3
+IIziIZFT<XBg^zIb;>o88[1
+R8
+w1787852068
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_MEM_CNTRL.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_MEM_CNTRL.v
+!i122 399
+L0 1 34
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_MEM_CNTRL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_MEM_CNTRL.v|
+!i113 0
+R12
+R4
+n@f@i@f@o_@m@e@m_@c@n@t@r@l
+vFIFO_RD
+R7
+!i10b 1
+!s100 _H[]c@P5gYKU?9TEn0jK43
+I>QJk640ohW1HT;aKLjec:3
+R8
+w1787860570
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_RD.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_RD.v
+!i122 400
+L0 1 68
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_RD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_RD.v|
+!i113 0
+R12
+R4
+n@f@i@f@o_@r@d
+vFIFO_WR
+R7
+!i10b 1
+!s100 =jRi;Q8d798VIQh2X073;2
+IY?z3oZES5^bJb9BJnE47U0
+R8
+w1787860574
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_WR.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_WR.v
+!i122 401
+L0 1 70
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_WR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/ASYCH_FIFO/FIFO_WR.v|
+!i113 0
+R12
+R4
+n@f@i@f@o_@w@r
+vFSM
+R18
+!i10b 1
+!s100 JY;5b<jY3m^_1oMKf=2JR1
+ID3d1_V9:DF3WTGZTU@3GY2
+R8
+w1790696264
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/FSM.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/FSM.v
+!i122 384
+L0 1 82
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/FSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/FSM.v|
+!i113 0
+R12
+R4
+n@f@s@m
+vMUX
+R18
+!i10b 1
+!s100 XbFf3H7`@noWJgWP5jBPJ2
+IA@EUdKKNH[i_QGUShgNNl2
+R8
+w1785676778
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/MUX.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/MUX.v
+!i122 385
+L0 1 26
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/MUX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/MUX.v|
+!i113 0
+R12
+R4
+n@m@u@x
+vParity
+R18
+!i10b 1
+!s100 b0OHH[>7ZR49nRjagnD5N0
+IW^l`HlOSI:QBiF>KJQEzi0
+R8
+w1790552630
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/Parity.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/Parity.v
+!i122 386
+L0 1 25
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/Parity.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/Parity.v|
+!i113 0
+R12
+R4
+n@parity
+vparity_check
+R18
+!i10b 1
+!s100 AMRKE4IOOFJ3n?G<4eJF32
+I>o_2YBzKfZ6?FQdAQJjUJ3
+R8
+w1790552395
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/parity_check.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/parity_check.v
+!i122 379
+L0 1 51
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/parity_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/parity_check.v|
+!i113 0
+R12
+R4
+vPULSE_GEN
+R7
+!i10b 1
+!s100 =M=@JOm>f4SndF?VJ3jiJ1
+ILSMQ4DhV3^3S[X@4M<hOT0
+R8
+w1790616251
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/PULSE_GEN/PULSE_GEN.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/PULSE_GEN/PULSE_GEN.v
+!i122 393
+R20
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/PULSE_GEN/PULSE_GEN.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/PULSE_GEN/PULSE_GEN.v|
+!i113 0
+R12
+R4
+n@p@u@l@s@e_@g@e@n
+vRegister_File
+R7
+!i10b 1
+!s100 izgOA0=>^U@BPN<1A:CjJ3
+I5K7g7LhVl6=PK=cX3]J3e0
+R8
+w1790643483
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/Register_File/Register_File.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/Register_File/Register_File.v
+!i122 392
+L0 1 55
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/Register_File/Register_File.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/Register_File/Register_File.v|
+!i113 0
+R12
+R4
+n@register_@file
+vRST_SYNCH
+R7
+!i10b 1
+!s100 Dn@FHKckF_Q[N[_7CY44b2
+I3PR_n76?Qk3lG:TV3O;Y:0
+R8
+w1787834839
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/RST_SYNCH/RST_SYNC.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/RST_SYNCH/RST_SYNC.v
+!i122 391
+L0 1 19
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/RST_SYNCH/RST_SYNC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/RST_SYNCH/RST_SYNC.v|
+!i113 0
+R12
+R4
+n@r@s@t_@s@y@n@c@h
+vserializer
+R7
+!i10b 1
+!s100 V>e`G<BQ[d4AYdGDeO_oG2
+IK0OS2]X7Bh80d6oZ@ZHiW2
+R8
+w1790702848
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/serializer.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/serializer.v
+!i122 387
+L0 1 58
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/serializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/serializer.v|
+!i113 0
+R12
+R4
+vstop_check
+R18
+!i10b 1
+!s100 `Nmh5dZ1d_[lkRN=eeW=g0
+Id5fBBM8O6BIQVcG[]hHa@0
+R8
+w1786807972
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/stop_check.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/stop_check.v
+!i122 380
+L0 1 29
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/stop_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/stop_check.v|
+!i113 0
+R12
+R4
+vstrt_check
+R18
+!i10b 1
+!s100 NSaJ]2NWiBlAmT3Y[3R9]2
+IT6N:4Z5?WWi39W23lk_PO0
+R8
+w1786485350
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/strt_check.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/strt_check.v
+!i122 381
+L0 1 8
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/strt_check.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/strt_check.v|
+!i113 0
+R12
+R4
+vSYS_CTRL
+R7
+!i10b 1
+!s100 SP14D8i@f3EcA6YlhHNLG1
+IDkbgbDC3RKHDNPn^`>B;^0
+R8
+w1790706140
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/SYS_CTRL/SYS_CTRL.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/SYS_CTRL/SYS_CTRL.v
+!i122 390
+L0 1 296
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/SYS_CTRL/SYS_CTRL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/SYS_CTRL/SYS_CTRL.v|
+!i113 0
+R12
+R4
+n@s@y@s_@c@t@r@l
+vSYS_TOP
+R6
+!i10b 1
+!s100 CKBB@O:USYo_JKDYRnT^]0
+I1UfHZk8AJ;J;9MYdJFGkD1
+R8
+w1790639021
+8SYS_TOP.v
+FSYS_TOP.v
+!i122 404
+L0 1 252
+R9
+R10
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R4
+n@s@y@s_@t@o@p
+vSYS_TOP_TB
+R6
+!i10b 1
+!s100 7Seh[2z6GT8FB68IBV0jI1
+Io]]ejY>Dz;z17Pgi@VQ2U3
+R8
+w1790785440
+Z21 8SYS_TOP_TB.v
+Z22 FSYS_TOP_TB.v
+!i122 404
+L0 2 475
+R9
+R10
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R4
+n@s@y@s_@t@o@p_@t@b
+vSYS_TOP_tb
+!s110 1790637820
+!i10b 1
+!s100 o?ObBVPE2Y09fM?:iK2cS1
+IM<IHmZUTMJLYD;N7@:ZZR3
+R8
+w1790637132
+R21
+R22
+!i122 60
+L0 24 453
+R9
+R10
+r1
+!s85 0
+31
+!s108 1790637820.000000
+R15
+R16
+!i113 0
+R17
+R4
+n@s@y@s_@t@o@p_tb
+vUART_RX_FSM
+R18
+!i10b 1
+!s100 5WdI7J`eHW^XQaj]R4zR90
+Ia0lYhnXgOXM9_;1=a^PRS1
+R8
+w1790552127
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_FSM.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_FSM.v
+!i122 382
+L0 1 172
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_FSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_FSM.v|
+!i113 0
+R12
+R4
+n@u@a@r@t_@r@x_@f@s@m
+vUART_RX_TOP
+R18
+!i10b 1
+!s100 8ho]j1;zZcSGI0:1U;X<C0
+I66>B^b7C0Ci2:UgL5cjKn1
+R8
+w1790716594
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_TOP.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_TOP.v
+!i122 383
+L0 1 146
+R9
+R10
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_TOP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_RX/UART_RX_TOP.v|
+!i113 0
+R12
+R4
+n@u@a@r@t_@r@x_@t@o@p
+vUART_TOP
+R7
+!i10b 1
+!s100 na:mm`LPa3Zn^`>`6Admn0
+IUD]7AjY0;lkD3I7a6==743
+R8
+w1790635957
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TOP/UART_TOP.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TOP/UART_TOP.v
+!i122 389
+L0 2 70
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TOP/UART_TOP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TOP/UART_TOP.v|
+!i113 0
+R12
+R4
+n@u@a@r@t_@t@o@p
+vUART_TX_TOP
+R7
+!i10b 1
+!s100 c=5mV;gbY=j8Bh=gX_S=A3
+IESm3GdiM@9YkJ5jKfRc^a1
+R8
+w1790637491
+8C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/UART_TX_TOP.v
+FC:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/UART_TX_TOP.v
+!i122 388
+L0 1 64
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/UART_TX_TOP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/amf-g/OneDrive/Desktop/El-Temsah digital design diploma/SYSTEM/SYSTEM/UART/UART_TX/UART_TX_TOP.v|
+!i113 0
+R12
+R4
+n@u@a@r@t_@t@x_@t@o@p

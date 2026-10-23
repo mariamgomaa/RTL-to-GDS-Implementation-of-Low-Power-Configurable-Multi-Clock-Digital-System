@@ -1,0 +1,36 @@
+ 
+****************************************
+Report : port
+Design : SYS_TOP_dft
+Version: O-2018.06-SP1
+Date   : Sun Oct  4 02:19:09 2026
+****************************************
+
+
+
+Attributes:
+    d - dont_touch_network
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+REF_CLK        in      0.0000   0.0000   --      --      --         d
+RST_N          in      0.0000   0.0000   --      --      --         
+SE             in      0.0000   0.0000    1.50    0.18   --         
+SI             in      0.0000   0.0000    1.50    0.18   --         
+UART_CLK       in      0.0000   0.0000   --      --      --         d
+UART_RX_IN     in      0.0000   0.0000    1.50    0.18   --         
+scan_clk       in      0.0000   0.0000   --      --      --         
+scan_rst       in      0.0000   0.0000   --      --      --         
+test_mode      in      0.0000   0.0000    1.50    0.18   --         
+test_si2       in      0.0000   0.0000   --      --      --         
+test_si3       in      0.0000   0.0000   --      --      --         
+test_si4       in      0.0000   0.0000   --      --      --         
+SO             out     0.1000   0.0000   --      --      --         
+UART_TX_O      out     0.1000   0.0000   --      --      --         
+framing_error  out     0.1000   0.0000   --      --      --         
+parity_error   out     0.1000   0.0000   --      --      --         
+test_so3       out     0.0000   0.0000   --      --      --         
+test_so4       out     0.0000   0.0000   --      --      --         
+
+1

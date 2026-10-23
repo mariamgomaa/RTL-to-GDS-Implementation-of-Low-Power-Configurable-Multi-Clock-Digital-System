@@ -1,0 +1,3185 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 100
+Design : SYS_TOP_dft
+Version: O-2018.06-SP1
+Date   : Fri Oct  9 10:37:35 2026
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/generated_pulse_reg_reg
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/generated_pulse_reg_reg/SE (SDFFRQX2M)      0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/generated_pulse_reg_reg/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/bus_enable_FF_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/bus_enable_FF_reg[3]/SE (SDFFRQX2M)         0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/bus_enable_FF_reg[3]/CK (SDFFRQX2M)         0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[7]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[7]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[5]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[5]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[4]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[4]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[6]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[6]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[3]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[3]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[2]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[2]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/enable_pulse_reg
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/enable_pulse_reg/SE (SDFFRQX2M)             0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/enable_pulse_reg/CK (SDFFRQX2M)             0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[0]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[0]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/sync_bus_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/sync_bus_reg[1]/SE (SDFFRQX2M)              0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/sync_bus_reg[1]/CK (SDFFRQX2M)              0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/bus_enable_FF_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/bus_enable_FF_reg[0]/SE (SDFFRQX2M)         0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/bus_enable_FF_reg[0]/CK (SDFFRQX2M)         0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/bus_enable_FF_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/bus_enable_FF_reg[1]/SE (SDFFRQX2M)         0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/bus_enable_FF_reg[1]/CK (SDFFRQX2M)         0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_DATA_SYNC/bus_enable_FF_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U29/Y (INVXLM)                                          0.68      21.59 r
+  U21/Y (INVXLM)                                          0.09      21.68 f
+  U22/Y (INVXLM)                                          0.53      22.21 r
+  u_DATA_SYNC/test_se (DATA_SYNC_NUM_STAGES4_BUS_WIDTH8_test_1)
+                                                          0.00      22.21 r
+  u_DATA_SYNC/bus_enable_FF_reg[2]/SE (SDFFRQX2M)         0.00      22.21 r
+  data arrival time                                                 22.21
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_DATA_SYNC/bus_enable_FF_reg[2]/CK (SDFFRQX2M)         0.00     100.00 r
+  library setup time                                     -0.61      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                -22.21
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.18
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/address_reg_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/address_reg_reg[2]/SE (SDFFRX1M)             0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/address_reg_reg[2]/CK (SDFFRX1M)             0.00     100.00 r
+  library setup time                                     -0.65      99.35
+  data required time                                                99.35
+  --------------------------------------------------------------------------
+  data required time                                                99.35
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.20
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/address_reg_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/address_reg_reg[3]/SE (SDFFRX1M)             0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/address_reg_reg[3]/CK (SDFFRX1M)             0.00     100.00 r
+  library setup time                                     -0.65      99.35
+  data required time                                                99.35
+  --------------------------------------------------------------------------
+  data required time                                                99.35
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.20
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/address_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/address_reg_reg[0]/SE (SDFFRX1M)             0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/address_reg_reg[0]/CK (SDFFRX1M)             0.00     100.00 r
+  library setup time                                     -0.65      99.35
+  data required time                                                99.35
+  --------------------------------------------------------------------------
+  data required time                                                99.35
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.20
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/address_reg_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/address_reg_reg[1]/SE (SDFFRX1M)             0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/address_reg_reg[1]/CK (SDFFRX1M)             0.00     100.00 r
+  library setup time                                     -0.65      99.35
+  data required time                                                99.35
+  --------------------------------------------------------------------------
+  data required time                                                99.35
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.20
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[14]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[14]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[14]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[13]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[13]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[13]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[12]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[12]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[12]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[11]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[11]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[11]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[10]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[10]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[10]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[9]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[9]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[9]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[8]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[8]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[8]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[15]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[15]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[15]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[6]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[6]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[5]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[5]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[4]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[4]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[3]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[3]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[2]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[2]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[1]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[1]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[0]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[0]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/read_data_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/read_data_reg_reg[7]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/read_data_reg_reg[7]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[7]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[7]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[6]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[6]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[5]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[5]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[4]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[4]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[3]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[3]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[2]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[2]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[1]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[1]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/ALU_data_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/ALU_data_reg_reg[0]/SE (SDFFRQX2M)           0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/ALU_data_reg_reg[0]/CK (SDFFRQX2M)           0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/current_state_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/current_state_reg[1]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/current_state_reg[1]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/current_state_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/current_state_reg[2]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/current_state_reg[2]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/current_state_reg[3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/current_state_reg[3]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/current_state_reg[3]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_SYS_CTRL/current_state_reg[0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  U27/Y (INVXLM)                                          0.21      20.91 f
+  U30/Y (INVXLM)                                          0.12      21.03 r
+  U18/Y (INVXLM)                                          0.07      21.10 f
+  U20/Y (INVXLM)                                          0.06      21.16 r
+  U17/Y (DLY1X1M)                                         0.99      22.15 r
+  u_SYS_CTRL/test_se (SYS_CTRL_OUT_WIDTH16_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      22.15 r
+  u_SYS_CTRL/current_state_reg[0]/SE (SDFFRQX2M)          0.00      22.15 r
+  data arrival time                                                 22.15
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_SYS_CTRL/current_state_reg[0]/CK (SDFFRQX2M)          0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -22.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.23
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[3][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[3][5]/SE (SDFFSQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[3][5]/CK (SDFFSQX2M)       0.00     100.00 r
+  library setup time                                     -0.66      99.34
+  data required time                                                99.34
+  --------------------------------------------------------------------------
+  data required time                                                99.34
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.56
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[2][7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[2][7]/SE (SDFFSQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[2][7]/CK (SDFFSQX2M)       0.00     100.00 r
+  library setup time                                     -0.66      99.34
+  data required time                                                99.34
+  --------------------------------------------------------------------------
+  data required time                                                99.34
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.56
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[5][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[5][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[5][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[5][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[5][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[5][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[5][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[5][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[5][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[5][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[5][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[5][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[7][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[7][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[7][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[7][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[7][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[7][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[7][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[7][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[7][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[7][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[7][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[7][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[9][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[9][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[9][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[9][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[9][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[9][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[9][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[9][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[9][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[9][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[9][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[9][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[11][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[11][5]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[11][5]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[11][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[11][4]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[11][4]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[11][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[11][1]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[11][1]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[11][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[11][0]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[11][0]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[4][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[4][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[4][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[4][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[4][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[4][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[4][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[4][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[4][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[4][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[4][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[4][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[6][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[6][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[6][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[6][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[6][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[6][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[6][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[6][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[6][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[6][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[6][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[6][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[8][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[8][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[8][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[8][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[8][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[8][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[8][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[8][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[8][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[8][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[8][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[8][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[10][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[10][5]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[10][5]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[10][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[10][4]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[10][4]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[10][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[10][1]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[10][1]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[10][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[10][0]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[10][0]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[12][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[12][1]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[12][1]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[12][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[12][0]/SE (SDFFRQX2M)      0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[12][0]/CK (SDFFRQX2M)      0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/RdData_reg[6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/RdData_reg[6]/SE (SDFFRQX2M)            0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/RdData_reg[6]/CK (SDFFRQX2M)            0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/RdData_reg[5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/RdData_reg[5]/SE (SDFFRQX2M)            0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/RdData_reg[5]/CK (SDFFRQX2M)            0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/RdData_reg[2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/RdData_reg[2]/SE (SDFFRQX2M)            0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/RdData_reg[2]/CK (SDFFRQX2M)            0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/RdData_reg[1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/RdData_reg[1]/SE (SDFFRQX2M)            0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/RdData_reg[1]/CK (SDFFRQX2M)            0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[3][7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[3][7]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[3][7]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[3][6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[3][6]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[3][6]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[3][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[3][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[3][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[3][3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[3][3]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[3][3]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[2][6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[2][6]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[2][6]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[2][3]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[2][3]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[2][3]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[0][0]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[0][0]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[0][0]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[0][2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[0][2]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[0][2]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[0][5]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[0][5]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[0][5]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[0][7]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[0][7]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[0][7]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[1][4]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[1][4]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[1][4]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[1][1]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[1][1]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[1][1]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[1][2]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U450/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[1][2]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[1][2]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+  Startpoint: SE (input port clocked by DFTCLK)
+  Endpoint: u_register_file/reg_file_reg[1][6]
+            (rising edge-triggered flip-flop clocked by DFTCLK)
+  Path Group: DFTCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock DFTCLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   20.00      20.00 r
+  SE (in)                                                 0.70      20.70 r
+  u_register_file/test_se (Register_File_DATA_W8_DEPTH16_ADD_W4_test_1)
+                                                          0.00      20.70 r
+  u_register_file/U453/Y (DLY1X1M)                        1.09      21.78 r
+  u_register_file/reg_file_reg[1][6]/SE (SDFFRQX2M)       0.00      21.78 r
+  data arrival time                                                 21.78
+
+  clock DFTCLK (rise edge)                              100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  u_register_file/reg_file_reg[1][6]/CK (SDFFRQX2M)       0.00     100.00 r
+  library setup time                                     -0.62      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                -21.78
+  --------------------------------------------------------------------------
+  slack (MET)                                                       77.59
+
+
+1
